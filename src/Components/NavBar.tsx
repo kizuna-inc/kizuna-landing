@@ -14,7 +14,7 @@ export const NavBar = (child: childInterface) => {
         className={`w-full flex flex-row justify-center items-center py-4 bg-whitesmoke rounded hover:opacity-60 ${
           child.navState ? "pl-4" : "pl-0"
         }`}
-        href="#title"
+        href="#home"
       >
         <p>H</p>
         <p
