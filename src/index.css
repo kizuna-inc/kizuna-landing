@@ -1,15 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Thai:100,200,300,regular,500,600,700);
 @import url(https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text:regular);
-@import url('https://fonts.cdnfonts.com/css/termina-test');
-
+@import url("https://fonts.cdnfonts.com/css/termina-test");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
-  font-family: 'Termina Test', sans-serif;
-  transition: all .3s;
+* {
+  font-family: "Termina Test", sans-serif;
+  transition: all 0.3s;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,5 +20,7 @@ body {
 }
 
 .id-barcode {
-  font-family: 'Libre Barcode 128 Text', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Libre Barcode 128 Text", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
 }

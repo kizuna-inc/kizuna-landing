@@ -1,3 +1,4 @@
+import { About } from "./Sections/About";
 import { TopHeading } from "./Sections/Heading";
 
 interface childInterface {
@@ -6,8 +7,9 @@ interface childInterface {
 
 export const ContentBox = (child: childInterface) => {
   return (
-    <div className={`overflow-y-auto ${child.className}`}>
+    <div className={`overflow-y-auto ${child.className}`} id="contentBox">
       <TopHeading />
+      <About />
     </div>
   );
 };
