@@ -19,9 +19,9 @@ export const TeamData: TeamInterface[] = [
     website: "https://suphakit.net",
   },
   {
-    name: "",
-    desp: "",
-    github: "",
-    website: "",
+    name: "Thunder.Sowilo",
+    desp: "Hello World",
+    github: "sowilo-thun",
+    website: "https://thunder.kizuna.zip",
   },
 ];
