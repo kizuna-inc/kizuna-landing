@@ -30,4 +30,10 @@ export const TeamData: TeamInterface[] = [
     github: "MatinWesker69",
     website: "https://matin.kizuna.zip",
   },
+  {
+    name: "Supanat .Ponkong",
+    desp: "a junior network",
+    github: "ItxM3G4RrYz",
+    website: "https://G4RIIE.kizuna.zip",
+  },
 ];
