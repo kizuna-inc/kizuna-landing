@@ -1,3 +1,6 @@
+import { WorksData } from "../../Modules/Works";
+import { WorkCard } from "../WorksCard";
+
 interface childInterface {
   className?: string;
 }
@@ -15,6 +18,11 @@ export const Works = (child: childInterface) => {
         <p className="text-xl text-whitesmoke px-4">
           This section gonna show you the works we have done before!
         </p>
+        <div className="md:w-[80%] w-full py-4 flex flex-row flex-wrap justify-center items-start gap-4 mx-auto">
+          {WorksData.map((data) => {
+            return <WorkCard works={data} />;
+          })}
+        </div>
       </div>
     </div>
   );
