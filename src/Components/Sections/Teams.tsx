@@ -16,7 +16,7 @@ export const Teams = (child: childInterface) => {
           Teams
         </p>
         <p className="text-xl text-whitesmoke px-4">
-          This is a organize, so we are a small team to do what we even aimed
+          This is an organize, so we are a small team to do what we even aimed
           for. :D
         </p>
         <div className="md:w-[80%] w-full py-4 flex flex-row flex-wrap justify-center items-start gap-4 mx-auto">
