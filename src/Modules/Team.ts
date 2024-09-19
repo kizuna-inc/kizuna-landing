@@ -36,4 +36,10 @@ export const TeamData: TeamInterface[] = [
     github: "ItxM3G4RrYz",
     website: "https://G4RIIE.kizuna.zip",
   },
+  {
+    name: "Sirapop Y.",
+    desp: "why Assembly...",
+    github: "LazyHarmo",
+    website: "https://osu.ppy.sh/users/10546315",
+  },
 ];
