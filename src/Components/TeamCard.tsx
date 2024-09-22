@@ -7,7 +7,7 @@ interface childInterface {
 export const TeamCard = (child: childInterface) => {
   return (
     <a
-      href={`https://github.com/${child.team.github}`}
+      href={`${child.team.website}`}
       className="w-[18rem] rounded-xl text-jet hover:scale-95"
       target="_blank"
     >
