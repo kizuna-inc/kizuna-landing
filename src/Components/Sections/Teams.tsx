@@ -1,4 +1,4 @@
-import { TeamData. subTeamData } from "../../Modules/Team";
+import { TeamData, subTeamData } from "../../Modules/Team";
 import { TeamCard } from "../TeamCard";
 
 interface childInterface {
@@ -19,9 +19,13 @@ export const Teams = (child: childInterface) => {
           This is an organize, so we are a small team to do what we even aimed
           for. :D
         </p>
+<<<<<<< HEAD
         <p className="text-2xl text-whitesmoke px-4 font-semibold">
           Main Team
         </p>
+=======
+        <p className="text-2xl text-whitemsoke px-4 font-semibold">Main Team</p>
+>>>>>>> e9a92c78f26ac2baf884704d1fe8c829e1117004
         <div className="md:w-[80%] w-full py-4 flex flex-row flex-wrap justify-center items-start gap-4 mx-auto">
           {TeamData.map((data) => {
             return <TeamCard team={data} />;
