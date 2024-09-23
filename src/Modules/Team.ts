@@ -31,15 +31,18 @@ export const TeamData: TeamInterface[] = [
     website: "https://matin.kizuna.zip",
   },
   {
-    name: "Supanat .Ponkong",
-    desp: "a junior network",
-    github: "ItxM3G4RrYz",
-    website: "https://G4RIIE.kizuna.zip",
-  },
-  {
     name: "Sirapop Y.",
     desp: "why Assembly...",
     github: "LazyHarmo",
     website: "https://osu.ppy.sh/users/10546315",
+  },
+];
+
+export const subTeamData: TeamInterface[] = [
+  {
+    name: "Supanat .Ponkong",
+    desp: "a junior network",
+    github: "ItxM3G4RrYz",
+    website: "https://github.com/ItxM3G4RrYz",
   },
 ];

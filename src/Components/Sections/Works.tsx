@@ -20,7 +20,7 @@ export const Works = (child: childInterface) => {
         </p>
 
         <p className="text-2xl text-whitesmoke font-semibold underline p-4 mt-2">
-          GameJam's Works that we have joined. 
+          GameJam's Works that we have joined.
         </p>
         <div className="md:w-[80%] w-full py-4 flex flex-row flex-wrap justify-center items-start gap-4 mx-auto">
           {GameJam.map((data) => {
@@ -28,13 +28,19 @@ export const Works = (child: childInterface) => {
           })}
         </div>
 
-        <p className={`${OtherWorks.length > 0 ? '' : 'hidden'} text-2xl text-whitesmoke font-semibold underline p-4 mt-2`}>
+        <p
+          className={`${OtherWorks.length > 0 ? "" : "hidden"} text-2xl text-whitesmoke font-semibold underline p-4 mt-2`}
+        >
           Other works
         </p>
-        <div className={`${OtherWorks.length > 0 ? '' : 'hidden'} md:w-[80%] w-full py-4 flex flex-row flex-wrap justify-center items-start gap-4 mx-auto`}>
-          {
-            OtherWorks.length > 0 ? OtherWorks.map((data) => { return <WorkCard works={data} /> }) : ''
-          }
+        <div
+          className={`${OtherWorks.length > 0 ? "" : "hidden"} md:w-[80%] w-full py-4 flex flex-row flex-wrap justify-center items-start gap-4 mx-auto`}
+        >
+          {OtherWorks.length > 0
+            ? OtherWorks.map((data) => {
+                return <WorkCard works={data} />;
+              })
+            : ""}
         </div>
       </div>
     </div>

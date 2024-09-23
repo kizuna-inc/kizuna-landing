@@ -16,6 +16,4 @@ export const GameJam: WorksInterface[] = [
 
 // This one gonna use same Interface as the above one :
 
-export const OtherWorks: WorksInterface[] = [
-  
-]
+export const OtherWorks: WorksInterface[] = [];
