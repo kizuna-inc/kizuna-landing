@@ -25,12 +25,6 @@ export const TeamData: TeamInterface[] = [
     website: "https://thunder.kizuna.zip",
   },
   {
-    name: "Matin Jr.",
-    desp: "Hello World",
-    github: "MatinWesker69",
-    website: "https://matin.kizuna.zip",
-  },
-  {
     name: "Sirapop Y.",
     desp: "why Assembly...",
     github: "LazyHarmo",
